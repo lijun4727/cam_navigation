@@ -1,0 +1,14 @@
+/cam_pointcloud_match/.vs
+/cam_pointcloud_match/out
+/cam_pointcloud_match/examples/test_cam_pointcloud_match/.vs
+/cam_pointcloud_match/examples/test_cam_pointcloud_match/x64
+/cam_pointcloud_match/examples/test_cam_pointcloud_match/test_cam_pointcloud_match/x64
+*.aps
+*vcxproj.user
+/cam_pointcloud_match/examples/test_cam_pointcloud_match/.vscode
+.vs
+out
+.qtcreator
+build
+/third_party/VcameraSDK-26.1.5
+*.autosave

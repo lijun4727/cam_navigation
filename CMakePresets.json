@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 19 },
+  "configurePresets": [
+    {
+      "name": "x64-RelWithDebInfo",
+      "displayName": "x64-RelWithDebInfo",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/x64-RelWithDebInfo",
+      "installDir": "${sourceDir}/out/install/x64-RelWithDebInfo",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "CMAKE_CXX_STANDARD": "20"
+      }
+    },
+    {
+      "name": "x64-Release",
+      "displayName": "x64-Release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/x64-Release",
+      "installDir": "${sourceDir}/out/install/x64-Release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CXX_STANDARD": "20"
+      }
+    }
+  ]
+}
